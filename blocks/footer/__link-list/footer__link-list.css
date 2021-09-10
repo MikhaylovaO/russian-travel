@@ -1,0 +1,15 @@
+.footer__link-list {
+   margin: 0 18px 0 0;
+   padding: 0;
+   width: fit-content;
+}
+
+@media screen and (max-width: 425px) {
+   .footer__link-list {
+       margin-bottom: 32px;
+   }
+
+   .footer__link-list:last-child {
+       margin: 0;
+   }
+}

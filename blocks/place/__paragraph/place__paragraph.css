@@ -1,0 +1,10 @@
+.place__paragraph {
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        width: 92.5%;
+        justify-self: center;
+    }
+}
