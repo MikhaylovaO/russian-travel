@@ -14,4 +14,4 @@
 4. @madia screen and (max-width/min-width:px) для адаптивности страницы.
 
 ## Ссылка на сайт.
-[Ссылка на проект в GitHub] (https://mikhaylovao.github.io/russian-travel/)
+[Ссылка на проект в GitHub (https://mikhaylovao.github.io/russian-travel/)]
