@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         row-gap: 32px;
         column-gap: 28px;
@@ -22,9 +21,6 @@
 
 @media screen and (max-width: 425px) {
     .place {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        row-gap: 32px;
         margin-bottom: 50px;
     }
 }

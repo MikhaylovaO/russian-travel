@@ -1,15 +1,11 @@
-.footer__links-list {
+.footer__menu {
     display: flex;
     position: relative;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 @media screen and (max-width: 425px) {
-    .footer__links-list {
+    .footer__menu {
         flex-direction: column;
     }
 }
