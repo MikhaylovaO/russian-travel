@@ -10,8 +10,14 @@
         <div class="page">
             <header class="header">
                 <img class="header__logo" src="images/header-logo.svg" alt="лого карта России" />
-                <a class="header__lang-link header__lang-link_lang-ru" href="index.html">Ru</a>
-                <a class="header__lang-link header__lang-link_lang-eng" href="#">En</a>
+                <ul class="header__lang-list">
+                    <li class="header__lang-links">
+                        <a class="header__lang-link header__lang-link_active" href="index.html">Ru</a>
+                    </li>
+                    <li class="header__lang-links">
+                        <a class="header__lang-link" href="#">En</a>
+                    </li>
+                </ul>                  
             </header>
 
             <main class="content">
@@ -142,10 +148,11 @@
 
                 <section class="cover">
                     <div class="cover__overlay-block">
-                        <a class="cover__overlay-link" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
-                        <div class="cover__overlay cover__overlay_hover-on"></div>
-                        <h2 class="cover__title">До Байкала «на собаках»</h2>
-                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                        <a class="cover__overlay-link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                            <h2 class="cover__title">До Байкала «на собаках»</h2>
+                            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                        </a>
+                        <div class="cover__overlay"></div>
                     </div>
                 </section>
             </main>
