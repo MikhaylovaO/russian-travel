@@ -1,17 +1,6 @@
 .place__website {
-    display: flex;
-    flex-direction: column;
     width: 92.5%;
-    height: 46px;
-    justify-content: space-between;
     align-self: flex-end;
-}
-
-@media screen and (max-width: 425px) {
-    .place__website {
-        width: 92.5%;
-        justify-self: center;
-    }
 }
 
 @media screen and (max-width: 320px) {
